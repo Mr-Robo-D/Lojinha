@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastrar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <h3 class="text-center"><span th:text="${novo} ? 'Novo' : 'Editar'"></span> Brinquedo</h3>
+        <form th:action="@{/brinquedos/save}" th:object="${brinquedo}" method="post">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr th:unless="${novo}">
+                        <td>ID</td>
+                        <td><input type="text" th:field="*{id}" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Nome</td>
+                        <td><input type="text" th:field="*{nome}" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Preço</td>
+                        <td><input type="text" th:field="*{preco}" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Categoria</td>
+                        <td><input type="text" th:field="*{categoria}" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Cor</td>
+                        <td><input type="text" th:field="*{cor}" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Imagem</td>
+                        <td><input type="text" th:field="*{imagem}" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Descrição</td>
+                        <td><input type="text" th:field="*{descricao}" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Detalhes</td>
+                        <td><input type="text" th:field="*{detalhes}" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Marca</td>
+                        <td><input type="text" th:field="*{marca}" class="form-control" /></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Enviar" />
+                <a th:href="@{/brinquedos/list}" class="btn btn-secondary">Sair </a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

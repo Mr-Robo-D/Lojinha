@@ -1,0 +1,71 @@
+[{
+    "data_nascimento": "2009-06-16",
+    "email": "luis@teste.com",
+    "endereco": "Rua Melo Peixoto",
+    "nome": "Luis Felipe",
+    "periodo": "Diurno"
+  },
+  {
+    "data_nascimento": "2001-10-31",
+    "email": "pedro@teste.com",
+    "endereco": "Rua Restinga",
+    "nome": "Pedro Henrique",
+    "periodo": "Vespertino"
+  },
+  {
+    "data_nascimento": "2000-04-09",
+    "email": "erica@teste.com",
+    "endereco": "Avenida Celso Garcia",
+    "nome": "Joao Luis Silva",
+    "periodo": "Noturno"
+  },
+  {
+    "data_nascimento": "1990-07-10",
+    "email": "duda@teste.com",
+    "endereco": "Alamenda Santos",
+    "nome": "Maria Eduarda",
+    "periodo": "Noturno"
+  },
+  {
+    "data_nascimento": "1950-03-18",
+    "email": "gabriel@teste.com",
+    "endereco": "Rua do Programador",
+    "nome": "Gabriel Lima",
+    "periodo": "Diurno"
+  },
+  {
+    "data_nascimento": "2009-06-16",
+    "email": "luis@teste.com",
+    "endereco": "Rua Melo Peixoto",
+    "nome": "Luis Fernando",
+    "periodo": "Diurno"
+  },
+  {
+    "data_nascimento": "2001-10-31",
+    "email": "pedro@teste.com",
+    "endereco": "Rua Restinga",
+    "nome": "Luis Henrique",
+    "periodo": "Vespertino"
+  },
+  {
+    "data_nascimento": "2000-04-09",
+    "email": "erica@teste.com",
+    "endereco": "Avenida Celso Garcia",
+    "nome": "Gabriel Silva",
+    "periodo": "Noturno"
+  },
+  {
+    "data_nascimento": "1990-07-10",
+    "email": "duda@teste.com",
+    "endereco": "Alamenda Santos",
+    "nome": "Maria Paula",
+    "periodo": "Noturno"
+  },
+  {
+    "data_nascimento": "1950-03-18",
+    "email": "gabriel@teste.com",
+    "endereco": "Rua do Programador",
+    "nome": "Gabriel Lima",
+    "periodo": "Diurno"
+  }
+]

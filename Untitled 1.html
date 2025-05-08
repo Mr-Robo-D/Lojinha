@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Loja de Brinquedos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Adicione outros links de estilo ou scripts conforme necessário -->
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" th:href="@{/}">Minha Loja</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" th:href="@{/}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/catalogo}">Catálogo de Brinquedos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/administracao}">Administração</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/sobre}">Sobre a Equipe</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h2>Destaques</h2>
+
+    <div class="row">
+        <!-- Destaque 1 -->
+        <div class="col-md-4 mb-4">
+            <img src="caminho/para/imagem1.jpg" alt="Brinquedo 1" class="img-thumbnail">
+            <p>Descrição do Brinquedo 1</p>
+            <p>Preço: R$ X.XX</p>
+        </div>
+
+        <!-- Destaque 2 -->
+        <div class="col-md-4 mb-4">
+            <img src="caminho/para/imagem2.jpg" alt="Brinquedo 2" class="img-thumbnail">
+            <p>Descrição do Brinquedo 2</p>
+            <p>Preço: R$ Y.YY</p>
+        </div>
+
+        <!-- Destaque 3 -->
+        <div class="col-md-4 mb-4">
+            <img src="caminho/para/imagem3.jpg" alt="Brinquedo 3" class="img-thumbnail">
+            <p>Descrição do Brinquedo 3</p>
+            <p>Preço: R$ Z.ZZ</p>
+        </div>
+
+        <!-- Adicione mais destaques conforme necessário -->
+    </div>
+</div>
+
+<!-- Adicione outros scripts conforme necessário, por exemplo, Bootstrap ou jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

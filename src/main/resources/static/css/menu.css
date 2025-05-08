@@ -1,0 +1,29 @@
+
+.bg-cor{
+	background-color: rgb(204, 0, 0);
+}
+
+.menu-link {
+	margin-left: 60px;
+}
+
+
+.nav-link{
+	color: white;
+	font-weight: 600;
+}
+
+/* Defina estilos padrão para os elementos */
+nav, footer {
+    display: block; /* Mostra os elementos por padrão */
+}
+
+/* Oculte os elementos quando a classe 'hide' é adicionada ao corpo */
+body.hide nav, body.hide footer {
+    display: none;
+}
+
+/* Exiba os elementos quando a classe 'show' é adicionada ao corpo */
+body.show nav, body.show footer {
+    display: block;
+}
